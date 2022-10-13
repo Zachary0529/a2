@@ -1,0 +1,315 @@
+Suburb,Number_of_house
+Abbotsford,56
+Airport West,67
+Albert Park,69
+Alphington,34
+Altona,74
+Altona North,56
+Armadale,95
+Ascot Vale,130
+Ashburton,60
+Ashwood,46
+Avondale Heights,74
+Balaclava,27
+Balwyn,107
+Balwyn North,171
+Bentleigh,139
+Bentleigh East,249
+Box Hill,59
+Braybrook,46
+Brighton,186
+Brighton East,138
+Brunswick,222
+Brunswick West,110
+Bulleen,71
+Burwood,84
+Camberwell,132
+Canterbury,54
+Carlton North,48
+Carnegie,146
+Caulfield,12
+Caulfield North,35
+Caulfield South,47
+Chadstone,35
+Clifton Hill,57
+Coburg,190
+Coburg North,56
+Collingwood,65
+Doncaster,116
+Eaglemont,23
+Elsternwick,61
+Elwood,131
+Essendon,220
+Essendon North,22
+Fairfield,43
+Fitzroy,59
+Fitzroy North,93
+Flemington,62
+Footscray,132
+Glen Iris,195
+Glenroy,159
+Gowanbrae,24
+Hadfield,62
+Hampton,130
+Hampton East,25
+Hawthorn,191
+Heidelberg Heights,78
+Heidelberg West,76
+Hughesdale,35
+Ivanhoe,98
+Kealba,19
+Keilor East,121
+Kensington,117
+Kew,177
+Kew East,49
+Kooyong,2
+Maidstone,94
+Malvern,67
+Malvern East,117
+Maribyrnong,96
+Melbourne,46
+Middle Park,34
+Mont Albert,34
+Moonee Ponds,149
+Moorabbin,64
+Newport,137
+Niddrie,82
+North Melbourne,81
+Northcote,188
+Oak Park,63
+Oakleigh South,58
+Parkville,31
+Pascoe Vale,171
+Port Melbourne,153
+Prahran,123
+Preston,239
+Reservoir,359
+Richmond,260
+Rosanna,61
+Seddon,62
+South Melbourne,85
+South Yarra,202
+Southbank,41
+Spotswood,29
+St Kilda,162
+Strathmore,63
+Sunshine,111
+Sunshine North,68
+Sunshine West,86
+Surrey Hills,125
+Templestowe Lower,92
+Thornbury,139
+Toorak,100
+Viewbank,41
+Watsonia,52
+West Melbourne,31
+Williamstown,107
+Williamstown North,19
+Windsor,60
+Yallambie,24
+Yarraville,164
+Aberfeldie,44
+Bellfield,16
+Brunswick East,88
+Burnley,7
+Campbellfield,4
+Carlton,51
+East Melbourne,22
+Essendon West,26
+Fawkner,102
+Hawthorn East,119
+Heidelberg,51
+Ivanhoe East,25
+Jacana,25
+Kingsbury,13
+Kingsville,34
+Murrumbeena,82
+Ormond,83
+West Footscray,105
+Albion,41
+Brooklyn,9
+Glen Huntly,17
+Oakleigh,47
+Ripponlea,9
+Cremorne,25
+Docklands,3
+South Kingsville,22
+Strathmore Heights,6
+Travancore,10
+Caulfield East,9
+Seaholme,6
+Keilor Park,22
+Gardenvale,6
+Princes Hill,5
+Bayswater,14
+Bayswater North,8
+Beaumaris,18
+Berwick,13
+Boronia,14
+Briar Hill,8
+Broadmeadows,23
+Bundoora,36
+Burnside Heights,3
+Burwood East,16
+Cairnlea,7
+Caroline Springs,11
+Cheltenham,46
+Craigieburn,47
+Cranbourne,3
+Croydon,33
+Dandenong,13
+Dandenong North,16
+Diamond Creek,6
+Dingley Village,21
+Doncaster East,41
+Donvale,13
+Doreen,6
+Eltham,25
+Epping,52
+Forest Hill,22
+Frankston,24
+Frankston North,4
+Frankston South,16
+Gisborne,8
+Gladstone Park,20
+Greensborough,36
+Hallam,5
+Healesville,1
+Highett,27
+Hillside,18
+Huntingdale,7
+Keilor Downs,15
+Keilor Lodge,2
+Keysborough,11
+Kings Park,5
+Lalor,42
+Lower Plenty,5
+Melton,12
+Mernda,9
+Mill Park,43
+Mitcham,30
+Montmorency,17
+Mordialloc,18
+Mount Waverley,57
+Narre Warren,7
+Nunawading,20
+Oakleigh East,11
+Parkdale,24
+Point Cook,13
+Ringwood East,12
+Rockbank,1
+Rowville,10
+Sandringham,25
+Seaford,14
+Skye,2
+South Morang,21
+Springvale,9
+St Albans,25
+Sunbury,38
+Tarneit,10
+Taylors Hill,7
+Taylors Lakes,22
+The Basin,4
+Thomastown,29
+Truganina,5
+Tullamarine,13
+Vermont,14
+Wantirna,12
+Wantirna South,22
+Werribee,50
+Westmeadows,14
+Williams Landing,2
+Wollert,9
+Wyndham Vale,4
+Black Rock,12
+Blackburn,21
+Blackburn North,14
+Bonbeach,4
+Carrum,9
+Chelsea,5
+Clayton,13
+Doveton,7
+Ferntree Gully,22
+Glen Waverley,45
+Greenvale,17
+Heathmont,16
+Hoppers Crossing,38
+McKinnon,8
+Melton South,18
+Melton West,8
+Mentone,26
+Mooroolbark,12
+Mulgrave,29
+Ringwood,20
+Roxburgh Park,15
+Seabrook,3
+Templestowe,19
+Vermont South,13
+Warrandyte,5
+Watsonia North,10
+Wheelers Hill,26
+Altona Meadows,6
+Blackburn South,12
+Carrum Downs,12
+Clayton South,11
+Croydon North,7
+Langwarrin,6
+Noble Park,12
+Notting Hill,3
+Ringwood North,10
+Sydenham,5
+Albanvale,6
+Beaconsfield Upper,1
+Chelsea Heights,4
+Dallas,6
+Deer Park,14
+Eltham North,13
+Keilor,9
+Meadow Heights,17
+Mount Evelyn,2
+North Warrandyte,2
+Pakenham,3
+Riddells Creek,1
+Sandhurst,1
+Scoresby,8
+Silvan,2
+Aspendale,7
+Chirnside Park,2
+Croydon Hills,4
+Croydon South,1
+Derrimut,5
+Diggers Rest,2
+Edithvale,9
+Hampton Park,4
+Knoxfield,4
+St Helena,3
+Upwey,1
+Bacchus Marsh,1
+Coolaroo,4
+Cranbourne North,2
+Kilsyth,4
+Montrose,1
+Aspendale Gardens,4
+Bullengarook,1
+Clarinda,4
+Deepdene,2
+Delahey,6
+Hurstbridge,2
+Kurunjang,4
+Wonga Park,1
+Endeavour Hills,5
+Officer,1
+Waterways,2
+Ardeer,3
+Beaconsfield,2
+Springvale South,3
+Yarra Glen,1
+Brookfield,1
+Emerald,1
+Whittlesea,1
+Burnside,2
+Attwood,1
+Wallan,1
+New Gisborne,1
+Plumpton,1
+Monbulk,1
