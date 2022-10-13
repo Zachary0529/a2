@@ -1,0 +1,14 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Number of room effect Price",
+    "width": "container",
+    "data": {"url": "https://raw.githubusercontent.com/Zacharyc0mMa/a2/main/data/room_price.csv"},
+    "mark": {
+      "type": "line",
+      "point": true
+    },
+    "encoding": {
+        "x": {"field": "Number_of_room", "type": "quantitative"},
+        "y": {"field": "Average_Price", "type": "quantitative"}
+    }
+  }

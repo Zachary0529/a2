@@ -1,9 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Number of house in dataset used that larger than 150",
-    "width": 500,
-    "height": {"step": 16},
     "data": {"url": "https://raw.githubusercontent.com/Zacharyc0mMa/a2/main/data/suburb_noofbuilding.csv"},
+    "width": "container",
     "transform": [
         {"filter": "datum.Number_of_house > 150"}
     ],
