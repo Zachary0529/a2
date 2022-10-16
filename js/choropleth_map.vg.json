@@ -25,6 +25,7 @@
     "color": {
       "field": "Average_Price/m^2",
       "type": "quantitative",
+
       "scale": {
         "type": "threshold",
         "domain": [5000,10000, 20000, 40000,60000,80000]
