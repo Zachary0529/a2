@@ -41,7 +41,7 @@
       <h2 id="c-align">Explain</h2>
       </div>
       </div>
-      
+
     <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-1">
@@ -82,6 +82,22 @@
       </div>
     </div>
 
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+      <h2 id="c-align">Explain</h2>
+      </div>
+      </div>
+
+      <div class="pure-g">
+        <div class="pure-u-1-2">
+          <div id="type", class="vis-container"></div>
+        </div>
+        <div class="pure-u-1-2">
+          <div class="description description-right">
+            <p>Not Finish Yet</p>
+          </div>
+        </div>
+      </div>
   </div>
 </head>
 <body>
@@ -92,6 +108,7 @@
 var specvis1 = "js/choropleth_map.vg.json";
 var specvis2 = "js/suburb_numberbuilding.json";
 var specvis3 = "js/room.json";
+var specvis4 = "js/type.json";
 
   vegaEmbed('#choropleth_map', specvis1, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -103,6 +120,10 @@ var specvis3 = "js/room.json";
 
 
   vegaEmbed('#room', specvis3, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  
+    vegaEmbed('#type', specvis4, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
