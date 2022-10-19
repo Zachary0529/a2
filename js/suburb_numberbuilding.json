@@ -2,7 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Number of house in dataset used that larger than 150",
     "data": {"url": "https://raw.githubusercontent.com/Zacharyc0mMa/a2/main/data/suburb_noofbuilding.csv"},
-    "width": "container",
+    "width": 450,
+    "height": 400,
     "transform": [
         {"filter": "datum.Number_of_house > 150"}
     ],
@@ -20,12 +21,16 @@
           "field": "Number_of_house",
           "type": "quantitative",
           "title": "Number of Houses in Dataset"
-        }
+        },
+        "tooltip": [
+          {"field": "Suburb", "type": "nominal", "title": "Suburb"},
+          {"field": "Number_of_house", "type": "quantitative","title": "Number of Houses"}]
       }
     }, {
       "mark": {"type": "text", "align": "left", "x": 5},
       "encoding": {
         "text": {"field": "Suburb"}
       }
-    }]
+    }],
+    "config": {}
   }
