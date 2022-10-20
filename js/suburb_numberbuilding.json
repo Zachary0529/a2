@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Number of house in dataset used that more than 150",
+    "title": "Number of house for each suburb in dataset that more than 150",
     "data": {"url": "https://raw.githubusercontent.com/Zacharyc0mMa/a2/main/data/suburb_noofbuilding.csv"},
     "width": 450,
     "height": 400,
