@@ -5,11 +5,18 @@ body *{
 h1 {
   font-weight: 900;
   background-color:rgb(230, 149, 29);
+  font-size: 100px;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-weight: 900;
+  font-weight: 500;
   background-color:gold;
+  font-size: 35px;
+}
+
+p{
+  font-size: 25px;
 }
 
 body {
@@ -17,7 +24,7 @@ body {
 }
 
 .page {
-  width: 920px;
+  width: 900px;
   background-color: white;
   margin: auto;
   padding: 50px;
@@ -53,4 +60,12 @@ h1 {
   text-align: center;
   border: 1px solid black;
   /* to set the border*/
+}
+
+.inc {
+  color: #c82525;
+}
+
+.dec {
+  color: #6431d1;
 }

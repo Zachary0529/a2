@@ -27,14 +27,28 @@
 
   <div class="page">
 
-    <!-- pure grid group -->
+
     <div class="pure-g">
       <div class="pure-u-1-1">
-        <h1 id="c-align">VIC House Price Difference</h1>
-        <p>Some introduction for the visulisation</p>
+        <h1 id="c-align">VIC House Price </h1>
       </div>
     </div>
-    <!-- end pure grid group -->
+
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <p>Victoria is a state in Australia. It is the second smallest state with a land area of 227,444 square kilometers, 
+          the second most populous state with a population of over 6.5 million, and the most densely populated state in Australia. 
+          The state is home to 20 of Australia's largest Four of the cities: Melbourne, Geelong, Ballarat and Bendigo. 
+          The population is culturally diverse and 35.1% of residents are immigrants.
+          <br>
+          <br>
+          This visualization will focus primarily on house prices in 2016 and 2017. 
+          Analyze which factors affect house <span class='inc'>prices rising</span> and which cause house <span class='dec'>prices fall</span>.
+
+        </p>
+      </div>
+    </div>
+
 
     <div class="pure-g">
       <div class="pure-u-1-1">
@@ -42,16 +56,16 @@
       </div>
       </div>
 
-    <!-- pure grid group -->
+
     <div class="pure-g">
       <div class="pure-u-1-1">
         <div id="choropleth_map", class="vis-container"></div>
       </div>
     </div>
-    <!-- end pure grid group -->
 
 
-    <!-- pure grid group -->
+
+
     <div class="pure-g">
       <div class="pure-u-1-2">
         <div id="suburb_numberbuilding", class="vis-container"></div>
@@ -70,11 +84,11 @@
     </div>
 
 
-    <!-- pure grid group -->
     <div class="pure-g">
       <div class="pure-u-1-2">
         <div class="description description-left">
-          <p>Not Finsh Yet</p>
+          <p>           Not Finsh Yet
+          </p>
         </div>
       </div>
       <div class="pure-u-1-2">
@@ -98,6 +112,27 @@
           </div>
         </div>
       </div>
+
+      <div class="pure-g">
+        <div class="pure-u-1-1">
+        <h2 id="c-align">Explain</h2>
+        </div>
+        </div>
+
+        <div class="pure-g">
+          <div class="pure-u-1-2">
+            <div class="description description-left">
+              <p>Not Finsh Yet</p>
+            </div>
+          </div>
+          <div class="pure-u-1-2">
+            <div id="distance" class="vis-container"></div>
+          </div>
+        </div>
+
+
+
+
   </div>
 </head>
 <body>
@@ -109,6 +144,7 @@ var specvis1 = "js/choropleth_map.vg.json";
 var specvis2 = "js/suburb_numberbuilding.json";
 var specvis3 = "js/room.json";
 var specvis4 = "js/type.json";
+var specvis5 = "js/distance.json";
 
   vegaEmbed('#choropleth_map', specvis1, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -127,6 +163,9 @@ var specvis4 = "js/type.json";
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
+    vegaEmbed('#distance', specvis5, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
 </script>
 
 </body>

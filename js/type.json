@@ -16,9 +16,13 @@
     "encoding": {
         "x": {"field": "House Type", "type": "nominal"},
         "y": {"field": "Number of Houses","type": "quantitative"},
-         "color": {"field": "House Type", "type": "nominal"},
-         "tooltip": [
-            {"field": "House Type", "type": "nominal", "title": "Suburb"},
-            {"field": "Number of Houses", "type": "quantitative","title": "Number of Houses"}]
-        }
-  }
+        
+        "color": {"field": "House Type", "type": "nominal"},
+        "tooltip": [
+          {"field": "House Type", "type": "nominal", "title": "Suburb"},
+          {"field": "Number of Houses", "type": "quantitative","title": "Number of Houses"}]
+        },
+    "config": {
+            "legend": {"disable": true}
+}
+}
