@@ -33,7 +33,7 @@
     },
     "tooltip": [
       {"field": "properties.LOC_NAME", "type": "nominal", "title": "Suburb"},
-      {"field": "Price/m^2", "type": "quantitative"}
+      {"field": "Average_Price/m^2", "type": "quantitative","title":"Price/m^2"}
     ]
   }
 }

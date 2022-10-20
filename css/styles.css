@@ -69,3 +69,7 @@ h1 {
 .dec {
   color: #6431d1;
 }
+
+.important {
+  font-weight: 900;
+}
